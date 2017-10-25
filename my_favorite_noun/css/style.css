@@ -1,18 +1,52 @@
-h1 {
-	text-decoration: bold;
+/* 
+CSS for My Favorite Noun Project 
+ICT-3 2017-18
+*/
+
+body {
+	background-color: #ce2b37;
+	color: #FFFFFF; 
+}
+
+h1, h2 {
+	text-decoration: underline;
+	font-family: Helvetica; 
 }
 
 p {
-	font-family: Helvetica;
+	font-family: Arial;
+}
+
+a {
+	color: #009246;
+	font-weight: bold; 
 }
 
 a:hover {
-	font-size: 36px;
-	color: yellow;
+	font-size: 24px;
 }
 
-img {
-	box-shadow: 10px 10px 5px #008877;
+img.left {
+	box-shadow: 10px 10px 5px #888888;
+	height: 480px;
+	width: 320px;
+	float: left; 
+}
+
+img.right {
+	box-shadow: 10px 10px 5px #888888;
+	height: 480px;
+	width: 320px;
+	float: right; 
+}
+
+div {
+	margin: auto;
+	}
+
+/*
+div.left {
 	float: left;
+	font-size: 10px;
 }
-
+*/
