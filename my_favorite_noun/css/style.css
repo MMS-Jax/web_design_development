@@ -28,25 +28,28 @@ a:hover {
 
 img.left {
 	box-shadow: 10px 10px 5px #888888;
-	height: 480px;
-	width: 320px;
-	float: left; 
+	height: 320px;
+	width: 200px;
+	float: left;
 }
 
 img.right {
 	box-shadow: 10px 10px 5px #888888;
-	height: 480px;
-	width: 320px;
-	float: right; 
+	height: 320px;
+	width: 200px;
+	float: right;
+	margin: 10px;
+	
 }
 
-div {
-	margin: auto;
-	}
-
-/*
 div.left {
+	width: 50%;
 	float: left;
-	font-size: 10px;
 }
-*/
+
+
+div.right {
+	width: 50%;
+	float: right;
+}
+
