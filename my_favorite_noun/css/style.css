@@ -6,6 +6,7 @@ ICT-3 2017-18
 body {
 	background-color: #ce2b37;
 	color: #FFFFFF; 
+	font-family: Arial;
 }
 
 h1, h2 {
@@ -22,8 +23,15 @@ a {
 	font-weight: bold; 
 }
 
+li {
+	font-family: Times New Roman;
+}
+
 a:hover {
 	font-size: 24px;
+}
+ol {
+	list-style-type: lower-alpha;
 }
 
 img.left {
